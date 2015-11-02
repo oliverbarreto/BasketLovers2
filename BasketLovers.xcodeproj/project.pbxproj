@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A7FB8E6F1BE82AE900D7D0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB8E6E1BE82AE900D7D0E9 /* AppDelegate.swift */; };
-		A7FB8E711BE82AE900D7D0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB8E701BE82AE900D7D0E9 /* ViewController.swift */; };
 		A7FB8E741BE82AE900D7D0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB8E721BE82AE900D7D0E9 /* Main.storyboard */; };
 		A7FB8E771BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7FB8E751BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld */; };
 		A7FB8E791BE82AE900D7D0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FB8E781BE82AE900D7D0E9 /* Assets.xcassets */; };
@@ -37,10 +36,9 @@
 /* Begin PBXFileReference section */
 		A7FB8E6B1BE82AE900D7D0E9 /* BasketLovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketLovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB8E6E1BE82AE900D7D0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7FB8E701BE82AE900D7D0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7FB8E731BE82AE900D7D0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7FB8E761BE82AE900D7D0E9 /* BasketLovers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BasketLovers.xcdatamodel; sourceTree = "<group>"; };
-		A7FB8E781BE82AE900D7D0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FB8E781BE82AE900D7D0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		A7FB8E7B1BE82AE900D7D0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7FB8E7D1BE82AE900D7D0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7FB8E821BE82AE900D7D0E9 /* BasketLoversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketLoversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +74,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7396CDE1BE82BF500BC104A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7396CDF1BE82BF500BC104A /* APIs */,
+				A7396CE11BE82BF500BC104A /* Extensions */,
+				A7396CE21BE82BF500BC104A /* Models */,
+				A7396CE31BE82BF500BC104A /* Views */,
+				A7396CE01BE82BF500BC104A /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7396CDF1BE82BF500BC104A /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		A7396CE01BE82BF500BC104A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7396CE11BE82BF500BC104A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7396CE21BE82BF500BC104A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB8E751BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7396CE31BE82BF500BC104A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7396CE41BE82BF500BC104A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB8E781BE82AE900D7D0E9 /* Assets.xcassets */,
+				A7396CE51BE82BF500BC104A /* MediaAssets */,
+				A7396CEA1BE82BF500BC104A /* Plists */,
+				A7396CEB1BE82BF500BC104A /* Storyboards */,
+				A7396CEC1BE82BF500BC104A /* XIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7396CE51BE82BF500BC104A /* MediaAssets */ = {
+			isa = PBXGroup;
+			children = (
+				A7396CE61BE82BF500BC104A /* Icons */,
+				A7396CE71BE82BF500BC104A /* Images */,
+				A7396CE81BE82BF500BC104A /* Sounds */,
+				A7396CE91BE82BF500BC104A /* Sprites */,
+			);
+			path = MediaAssets;
+			sourceTree = "<group>";
+		};
+		A7396CE61BE82BF500BC104A /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		A7396CE71BE82BF500BC104A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A7396CE81BE82BF500BC104A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A7396CE91BE82BF500BC104A /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		A7396CEA1BE82BF500BC104A /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		A7396CEB1BE82BF500BC104A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB8E721BE82AE900D7D0E9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A7396CEC1BE82BF500BC104A /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB8E7A1BE82AE900D7D0E9 /* LaunchScreen.storyboard */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		A7FB8E621BE82AE900D7D0E9 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +220,9 @@
 			isa = PBXGroup;
 			children = (
 				A7FB8E6E1BE82AE900D7D0E9 /* AppDelegate.swift */,
-				A7FB8E701BE82AE900D7D0E9 /* ViewController.swift */,
-				A7FB8E721BE82AE900D7D0E9 /* Main.storyboard */,
-				A7FB8E781BE82AE900D7D0E9 /* Assets.xcassets */,
-				A7FB8E7A1BE82AE900D7D0E9 /* LaunchScreen.storyboard */,
 				A7FB8E7D1BE82AE900D7D0E9 /* Info.plist */,
-				A7FB8E751BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld */,
+				A7396CDE1BE82BF500BC104A /* Classes */,
+				A7396CE41BE82BF500BC104A /* Resources */,
 			);
 			path = BasketLovers;
 			sourceTree = "<group>";
@@ -260,7 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FB8E771BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld in Sources */,
-				A7FB8E711BE82AE900D7D0E9 /* ViewController.swift in Sources */,
 				A7FB8E6F1BE82AE900D7D0E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +419,7 @@
 				A7FB8E731BE82AE900D7D0E9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A7FB8E7A1BE82AE900D7D0E9 /* LaunchScreen.storyboard */ = {
@@ -311,6 +428,7 @@
 				A7FB8E7B1BE82AE900D7D0E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +606,7 @@
 				A7FB8E981BE82AEA00D7D0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7FB8E991BE82AEA00D7D0E9 /* Build configuration list for PBXNativeTarget "BasketLoversTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +615,7 @@
 				A7FB8E9B1BE82AEA00D7D0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7FB8E9C1BE82AEA00D7D0E9 /* Build configuration list for PBXNativeTarget "BasketLoversUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +624,7 @@
 				A7FB8E9E1BE82AEA00D7D0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -514,7 +635,8 @@
 				A7FB8E761BE82AE900D7D0E9 /* BasketLovers.xcdatamodel */,
 			);
 			currentVersion = A7FB8E761BE82AE900D7D0E9 /* BasketLovers.xcdatamodel */;
-			path = BasketLovers.xcdatamodeld;
+			name = BasketLovers.xcdatamodeld;
+			path = ../../BasketLovers.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
