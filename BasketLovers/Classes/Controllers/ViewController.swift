@@ -6,7 +6,7 @@
 //  Copyright © 2015 Oliver Barreto. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class ViewController: UIViewController {
 

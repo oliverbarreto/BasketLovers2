@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A7396CEE1BE82CAC00BC104A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7396CED1BE82CAC00BC104A /* ViewController.swift */; };
+		A7B8AB3C1BE8A719006F4FF7 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8AB371BE8A719006F4FF7 /* UIImage+Alpha.m */; };
+		A7B8AB3D1BE8A719006F4FF7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8AB391BE8A719006F4FF7 /* UIImage+Resize.m */; };
+		A7B8AB3E1BE8A719006F4FF7 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8AB3B1BE8A719006F4FF7 /* UIImage+RoundedCorner.m */; };
 		A7FB8E6F1BE82AE900D7D0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB8E6E1BE82AE900D7D0E9 /* AppDelegate.swift */; };
 		A7FB8E741BE82AE900D7D0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB8E721BE82AE900D7D0E9 /* Main.storyboard */; };
 		A7FB8E771BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7FB8E751BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld */; };
@@ -36,6 +39,13 @@
 
 /* Begin PBXFileReference section */
 		A7396CED1BE82CAC00BC104A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7B8AB361BE8A719006F4FF7 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		A7B8AB371BE8A719006F4FF7 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		A7B8AB381BE8A719006F4FF7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		A7B8AB391BE8A719006F4FF7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		A7B8AB3A1BE8A719006F4FF7 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		A7B8AB3B1BE8A719006F4FF7 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		A7B8AB3F1BE8A747006F4FF7 /* BasketLovers-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BasketLovers-Bridging-Header.h"; sourceTree = "<group>"; };
 		A7FB8E6B1BE82AE900D7D0E9 /* BasketLovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketLovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB8E6E1BE82AE900D7D0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7FB8E731BE82AE900D7D0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +89,7 @@
 		A7396CDE1BE82BF500BC104A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A7B8AB3F1BE8A747006F4FF7 /* BasketLovers-Bridging-Header.h */,
 				A7396CDF1BE82BF500BC104A /* APIs */,
 				A7396CE11BE82BF500BC104A /* Extensions */,
 				A7396CE21BE82BF500BC104A /* Models */,
@@ -106,6 +117,7 @@
 		A7396CE11BE82BF500BC104A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A7B8AB351BE8A719006F4FF7 /* UIImageCategories */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -197,6 +209,19 @@
 				A7FB8E7A1BE82AE900D7D0E9 /* LaunchScreen.storyboard */,
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		A7B8AB351BE8A719006F4FF7 /* UIImageCategories */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8AB361BE8A719006F4FF7 /* UIImage+Alpha.h */,
+				A7B8AB371BE8A719006F4FF7 /* UIImage+Alpha.m */,
+				A7B8AB381BE8A719006F4FF7 /* UIImage+Resize.h */,
+				A7B8AB391BE8A719006F4FF7 /* UIImage+Resize.m */,
+				A7B8AB3A1BE8A719006F4FF7 /* UIImage+RoundedCorner.h */,
+				A7B8AB3B1BE8A719006F4FF7 /* UIImage+RoundedCorner.m */,
+			);
+			path = UIImageCategories;
 			sourceTree = "<group>";
 		};
 		A7FB8E621BE82AE900D7D0E9 = {
@@ -379,9 +404,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B8AB3C1BE8A719006F4FF7 /* UIImage+Alpha.m in Sources */,
 				A7396CEE1BE82CAC00BC104A /* ViewController.swift in Sources */,
 				A7FB8E771BE82AE900D7D0E9 /* BasketLovers.xcdatamodeld in Sources */,
 				A7FB8E6F1BE82AE900D7D0E9 /* AppDelegate.swift in Sources */,
+				A7B8AB3E1BE8A719006F4FF7 /* UIImage+RoundedCorner.m in Sources */,
+				A7B8AB3D1BE8A719006F4FF7 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +506,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasketLovers/Classes/BasketLovers-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -516,6 +545,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasketLovers/Classes/BasketLovers-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
