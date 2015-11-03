@@ -112,24 +112,24 @@
                                 <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-T9-ML5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Basketball2" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-T9-ML5">
                                 <rect key="frame" x="191" y="226" width="50" height="50"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kz4-bV-PGg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlayerJersey" translatesAutoresizingMaskIntoConstraints="NO" id="Kz4-bV-PGg">
                                 <rect key="frame" x="191" y="405" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="H7e-aT-U7k"/>
                                     <constraint firstAttribute="height" constant="60" id="pwu-OW-cee"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eXF-JS-dK5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trophy" translatesAutoresizingMaskIntoConstraints="NO" id="eXF-JS-dK5">
                                 <rect key="frame" x="275" y="226" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="4jl-gr-msz"/>
                                     <constraint firstAttribute="height" constant="50" id="9gR-V2-fiz"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P57-Je-2ng">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopPlay" translatesAutoresizingMaskIntoConstraints="NO" id="P57-Je-2ng">
                                 <rect key="frame" x="363" y="226" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="dPa-hU-Oq8"/>
@@ -204,7 +204,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="g5v-0J-2Wx"/>
+                    <tabBarItem key="tabBarItem" selectedImage="Basket" id="g5v-0J-2Wx"/>
                     <navigationItem key="navigationItem" id="Y0h-Dl-mdh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Koh-Du-ffV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -390,7 +390,7 @@
         <scene sceneID="Cxd-BJ-KmJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S0w-on-ZpA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="Zzy-Md-wjo"/>
+                    <tabBarItem key="tabBarItem" selectedImage="I" id="Zzy-Md-wjo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tMn-X8-nbf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -448,7 +448,7 @@
         <scene sceneID="8fy-2O-B1H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZES-VN-cBd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="cBK-81-ACb"/>
+                    <tabBarItem key="tabBarItem" selectedImage="Basket" id="cBK-81-ACb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cch-rA-i4y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -482,4 +482,12 @@
             <point key="canvasLocation" x="1716" y="462"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Basket" width="70" height="100"/>
+        <image name="Basketball2" width="100" height="100"/>
+        <image name="I" width="512" height="512"/>
+        <image name="PlayerJersey" width="63" height="100"/>
+        <image name="TopPlay" width="62" height="100"/>
+        <image name="Trophy" width="100" height="100"/>
+    </resources>
 </document>
