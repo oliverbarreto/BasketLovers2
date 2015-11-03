@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="-733" y="414"/>
         </scene>
-        <!--View Controller-->
+        <!--Stats-->
         <scene sceneID="gHq-hf-1IC">
             <objects>
                 <viewController id="wmz-jb-28f" sceneMemberID="viewController">
@@ -112,7 +112,7 @@
                                 <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Basketball2" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-T9-ML5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BasketballBoard" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-T9-ML5">
                                 <rect key="frame" x="191" y="226" width="50" height="50"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlayerJersey" translatesAutoresizingMaskIntoConstraints="NO" id="Kz4-bV-PGg">
@@ -204,7 +204,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="Basket" id="g5v-0J-2Wx"/>
+                    <tabBarItem key="tabBarItem" title="Stats" image="TabBarIconStats" id="g5v-0J-2Wx"/>
                     <navigationItem key="navigationItem" id="Y0h-Dl-mdh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Koh-Du-ffV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -386,11 +386,11 @@
             </objects>
             <point key="canvasLocation" x="2528" y="462"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Config-->
         <scene sceneID="Cxd-BJ-KmJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S0w-on-ZpA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" selectedImage="I" id="Zzy-Md-wjo"/>
+                    <tabBarItem key="tabBarItem" title="Config" image="TabBarIconConfig" id="Zzy-Md-wjo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tMn-X8-nbf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -444,11 +444,11 @@
             </objects>
             <point key="canvasLocation" x="-1434" y="421"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Play-->
         <scene sceneID="8fy-2O-B1H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZES-VN-cBd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" selectedImage="Basket" id="cBK-81-ACb"/>
+                    <tabBarItem key="tabBarItem" title="Play" image="TabBarIconPlay" id="cBK-81-ACb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cch-rA-i4y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -483,10 +483,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Basket" width="70" height="100"/>
-        <image name="Basketball2" width="100" height="100"/>
-        <image name="I" width="512" height="512"/>
+        <image name="BasketballBoard" width="99" height="100"/>
         <image name="PlayerJersey" width="63" height="100"/>
+        <image name="TabBarIconConfig" width="27" height="27"/>
+        <image name="TabBarIconPlay" width="25" height="25"/>
+        <image name="TabBarIconStats" width="25" height="26"/>
         <image name="TopPlay" width="62" height="100"/>
         <image name="Trophy" width="100" height="100"/>
     </resources>
